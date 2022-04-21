@@ -37,7 +37,7 @@ function abrahamCharacter(){
         let abrahamDes = data.characters[0].description;
         document.querySelector("#storyDes").innerHTML = abrahamDes;
         
-        document.getElementById("pic").src="/assets/abraham.png";
+        document.getElementById("pic").src="../assets/abraham.png";
 
         let abrahamQ = data.characters[0].god;
         document.querySelector("#bibleVerse").innerHTML = abrahamQ;
