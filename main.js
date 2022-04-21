@@ -12,7 +12,7 @@ function mosesCharacter(){
         let mosesDes = data.characters[1].description;
         document.querySelector("#storyDes").innerHTML = mosesDes;
 
-        document.getElementById("pic").src="/assets/moses.png";
+        document.getElementById("pic").src="assets/moses.png";
 
         let mosesQ = data.characters[1].god;
         document.querySelector("#bibleVerse").innerHTML = mosesQ;
@@ -37,7 +37,7 @@ function abrahamCharacter(){
         let abrahamDes = data.characters[0].description;
         document.querySelector("#storyDes").innerHTML = abrahamDes;
         
-        document.getElementById("pic").src="../assets/abraham.png";
+        document.getElementById("pic").src="assets/abraham.png";
 
         let abrahamQ = data.characters[0].god;
         document.querySelector("#bibleVerse").innerHTML = abrahamQ;
