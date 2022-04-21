@@ -1,0 +1,24 @@
+{
+    "characters" : [
+        {
+            "name": "Abraham",
+            "description": "The patriarch of the Hebrew people. Abraham is traditionally called 'Father Abraham' because the Israelite people and their religion descend from him. God establishes his covenant, or promise, with Abraham, and God develops an ongoing relationship with the Israelites through Abraham’s descendants. Abraham practices the monotheistic worship of God, and his resilient faith in God, despite many challenges, sets the pattern for the Israelite religion’s view of righteousness.",
+            "journey":  [
+                "So Abram went, as the Lord had told him; and Lot went with him. Abram was seventy-five years old when he set out from Harran. 5 He took his wife Sarai, his nephew Lot, all the possessions they had accumulated and the people they had acquired in Harran, and they set out for the land of Canaan, and they arrived there",
+                "Abram traveled through the land as far as the site of the great tree of Moreh at Shechem. At that time the Canaanites were in the land. 7 The Lord appeared to Abram and said, “To your offspring[c] I will give this land.” So he built an altar there to the Lord, who had appeared to him.",
+                "From there he went on toward the hills east of Bethel and pitched his tent, with Bethel on the west and Ai on the east. There he built an altar to the Lord and called on the name of the Lord."
+            ],
+            "god": "Go from your country, your people and your father’s household to the land I will show you. - Genesis 12:1"
+        },
+        {
+            "name": "Moses",
+            "description": "The reluctant savior of Israel in its exodus from Egyptian bondage to the promised land. Moses mediates between God and the people, transforming the Israelites from an oppressed ethnic group into a nation founded on religious laws. Moses’s legendary miracles before Pharaoh, along with his doubts and insecurities, make him the great mortal hero of the Old Testament. He is the only man ever to know God 'face to face.' Four out of the five books of the Pentateuch are devoted to Moses and Israel’s activities under his leadership.",
+            "journey": [
+                "Now Moses was tending the flock of Jethro his father-in-law, the priest of Midian, and he led the flock to the far side of the wilderness and came to Horeb, the mountain of God.",
+                "There the angel of the Lord appeared to him in flames of fire from within a bush.",
+                "Moses saw that though the bush was on fire it did not burn up. 3 So Moses thought, “I will go over and see this strange sight—why the bush does not burn up.”"
+            ],
+            "god": "I AM WHO I AM. This is what you are to say to the Israelites: `I AM has sent me to you. - Exodus 3:14"
+        }
+    ]
+}

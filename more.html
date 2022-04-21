@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="bible.js"></script>
+        <script src="https://unpkg.com/rita@2.8.1/dist/rita.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="bible.json"></script>
+    </head>
+
+    <title>God's View</title>
+    <body>
+        <!-- <div class="background"></div> -->
+        <div id="top">
+            <div id="left">
+                <div id = "heading">
+                    <div id = "title">
+                        <h1>God's View</h1>
+                    </div>
+                    <div id = "descriptions">
+                        <p> 
+                            This website serves as mental guidance for people who feel lost or frustrated at any point in life. 
+                            It is hard for us to see why things happened, 
+                            in the way it happens, 
+                            and where it is heading or leading; 
+                            however, on this website, 
+                            you will be able to elevate your point of view on your situation 
+                            and can have a sneak peek of God’s overall plan for you. 
+                            Back when I was in a Christian school, 
+                            my teachers always tell me that whatever we are going through now 
+                            in our lives, there are people in Bible that already went 
+                            through the same journey. You can always find yourself as 
+                            one of the people/characters in the Bible. Bringing this notion 
+                            to the divination website, the user can express the situation 
+                            they are in right now, and the website will try to match that 
+                            description piece of an experience to someone’s journey in the bible. 
+                            It will show and tell you what happens to the person in the Bible 
+                            and what God has said to that person. In the end, you will be able to see your point of view, 
+                            God’s point of view, and scripture of what God says to both you and the person in the Bible. 
+                            The intention is to have you see where you are heading and rerouting you back on the right track of God’s love.
+                        </p>
+                    </div>
+                </div>
+                <div id = "views">
+                    <div id = "yourView" class = "roundBorders">
+                        <input type="text" placeholder = "Tell me how you are feeling..."/>
+                        <p>Matching Rate:</p>
+                        <p id = "counterNum">0</p>
+                    </div>
+                    
+                    <div id = "godsView" class = "roundBorders container">
+                        <button id = "start" class="paperButton" role="button">See which Bible character are you?</button>
+                        <button id = "restart" class="paperButton" role="button">Restart</button>
+                    </div>
+                </div>
+            </div>
+            <div id = "right" >
+                <div id="character">
+                    <div id = "picBox" class = "roundBorders">
+                        <!-- <div id="pic"></div> -->
+                        <img src="/assets/profile_pic-02.png" alt="this is moses" id="pic">
+                        
+                    </div>
+                    <div id ="story" class = "roundBorders">
+                        <h2 id = name>Person</h2>
+                        <p id = "json"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id = "bottom" class= "roundBorders">
+            <p id="bibleVerse">This is where you will see what God has said to you</p>
+        </div>
+        <!-- <img src="/assets/layout.jpg" alt="Italian Trulli"> -->
+    </body>
+</html>

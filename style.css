@@ -1,0 +1,300 @@
+body {
+    /* background-image: url(/assets/layout.jpg);
+    background-color: #cccccc;
+    background-size:cover; */
+    font-family: "Myriad Pro";
+    font-style: regular;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display:inline;
+}
+
+
+/* buttons{
+    width:100px;
+} */
+
+/* button{
+    justify-content:space-around;
+} */
+
+
+/* 
+.background{
+    background-image:url(/assets/layout.jpg);
+} */
+
+
+/*TOP*/
+
+#top{
+    height:85%;
+    width:100%;
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+    #left{
+        width: 90%;
+        height:100%;
+    }
+
+        #heading {
+            display: flex;
+            height:20%;
+            width: 100%;
+            /* padding: 1px; */
+            /* background:red;   */
+        }
+
+            #title{
+                width: 50%;
+                font-size: 30px;
+                /* padding:30px; */
+                padding-left: 5%;
+                height: 50%;
+            }
+
+            #descriptions{
+                width:100%;
+                margin:20px;
+                height: 50%;
+            }
+
+
+        /* 2.Views */
+        #views {
+            display: flex;
+            /* background-color: aqua; */
+            height:79%;
+            width:100%;
+            justify-content:space-around;
+            /* margin:1em; */
+            
+        }
+
+        #views h2{
+            font-size: 30px;
+            text-align: center;
+            /* bottom: 0; */
+        }
+
+            #yourView {
+                /* position:absolute; */
+                /* height:px;
+                width: 600px; */
+                /* margin:10px; */
+                /* align-content: center; */
+                /* position:relative; */
+                margin: .5em;
+                min-width: 580px;
+                min-height: 450px;
+            }
+
+                #yourCanvas{
+                    margin-left:15px;
+                    margin-right:15px;
+                }
+                
+                #yourView h2{
+                    text-align: center;
+                    font-size: 30px;
+                    height:5%;
+                }
+
+            
+                #yourView p{
+                    text-align: center;
+                    font-size: 16px;
+                    height:5%;
+                }
+
+                .canvas{
+                    /* min-width: 50%;
+                    min-height: 50%; */
+                    /* background-color: aqua; */
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+
+                input{
+                    width: 95%;
+                    height: 10%;
+                    font-size:20px;
+                    text-align: center;
+                    font-family: "Myriad Pro";
+                    font-style: regular;
+                    margin: .5em;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 25px;
+                    
+                
+                }
+
+                #buttonss {
+                    display: flex;
+                    justify-content:space-around;
+                }
+
+            #godsView {
+                /* position:absolute; */
+                /* height:500px;
+                width: 600px; */
+                margin-left:15px;
+                margin-right:15px;
+                min-width: 580px;
+                min-height: 450px;
+                /* margin:10px; */
+            }
+
+                #godsView h2{
+                    font-size: 30px;
+                    height:2%;
+                }
+
+                #godCanvas{
+                    margin-left:30px;
+                    margin-right:30px;
+                }
+
+                #matchingRate{
+                    display: flex;
+                    padding-left: 30px;
+                    font-size: 20px;
+                }
+
+                #counterNum{
+                    padding-left: 5px;
+                }
+
+
+
+    #right{
+        width:20%;
+        height: 85%;
+    }
+
+        #character{
+            height: 100%;
+            width: 80%;
+            /* display: inline-block;
+            padding-block: 30px; */
+            /* justify-content: space-between; */
+            
+            /* background-color: #F7F7F7; */
+            
+        }
+
+            #picBox{
+                width:100%;
+                height: 30%;
+                padding:10px;
+                /* justify-content: center; */
+                margin:1em;
+                /* padding:30px; */
+                
+            }            
+                #pic{
+                    /* background-image: url(/assets/profile_pic-02.png);
+                    background-size: contain; */
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                    /* width: 60%; */
+                    margin-left: auto;
+                    margin-right: auto;
+                    /* padding:30px; */
+                }
+
+            
+            
+            #name{
+                font-size: 28px;
+            }
+
+            #story{
+                font-size: 15px;
+                text-align: center;
+                padding:10px;
+                height: 70%;
+                width: 100%;
+                margin:1em;
+            }
+
+
+#bottom{
+    background:rgb(0, 0, 0);
+    /* margin: 30px; */
+    width: 100%;
+    justify-content:space-around;
+    height:10%;
+
+}
+
+#bibleVerse{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.roundBorders{
+    background-color: #F7F7F7;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+
+
+/* Buttons!! */
+.paperButton {
+width: 200px;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Myriad Pro";
+  font-style: regular;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.paperButton:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.paperButton:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
