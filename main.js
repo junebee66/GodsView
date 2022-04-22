@@ -155,7 +155,7 @@ function generateWords(abrahamCount, mosesCount){
                 }
 
         }
-        // console.log(bibleArray);
+        console.log(bibleArray);
         return counter;
     }
 
