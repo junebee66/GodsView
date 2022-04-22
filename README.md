@@ -10,4 +10,4 @@ Share your design and technical process.
 ### Challenges & Struggles
 What challenges and struggles did you face?
 ### References
-Credit resources appropriately 
+Credit resources appropriatelyyyy
