@@ -26,6 +26,7 @@ _-Still in developing stage-_
 >In this box, the user can see a top down perspective of a map drawing and generates from the user’s input. It signifys God’s point of view when looking at the Bible character’s journey. It is a full picture of what God sees about where he is leading you and where you are in his plan right now. 
 
 #### **⭐️ Bible Character**
+_- For this prototype version, the json I created only has two Bible characters-_
 >This displays the Bible character that who has been through the same/similar situation as what user described in the input section. The algoritm analyzes the sentence structure of the user’s input and matches it with the bible chapters that were written with the same part of speech pattern. The algoritm analyzes the sentence structure of the user’s input and matches it with the bible chapters that were written with the same part of speech pattern. In the future version, the user can hover their mouse to the line drawings and activates bible story box to read from the actual bible verses of this bible character’s story about what happen to this character, how this character face problems, and where the character ends up being.
 
 #### **⭐️ Character Descriptions**
@@ -37,8 +38,88 @@ _-Still in developing stage-_
 
 ## **✍🏻Process & Documentation**
 ![alt text](assets/progress/console.png)
-For this project, I wrote an algorithm to analyze the sentence structure of user's input and match it with the part of speech sentence pattern with Bible characters descriptions. It was a hard  
+**1. Matching Algorithm**
+
+For this project, I wrote an algorithm to analyze the sentence structure of user's input and match it with the part of speech sentence pattern with Bible characters descriptions, using [Rita.js](https://rednoise.org/rita/) library. 
+
+I first saperate bible verse and input text into individual words
+
+    
+    RiTa.tokenize(abraham);
+
+put them into their own array and analyze both their part of speech
+
+     for (i = 0; i < tokens.length; i++){
+        let inputPos = RiTa.pos(tokens[i]);
+        inputArray.push(inputPos);
+
+        }
+     
+     for (b = 0; b < abrahamText.length; b++){
+        let abrahamPosF = RiTa.pos(abrahamText[b]);
+        abrahamArray.push(abrahamPosF);
+    }
+
+
+Then match them through for loop to match the part of speech one by one (1a, 1b, 1c, 2a, 2b, 2c..etc)
+
+    function matching(inputArray, bibleArray, counter){   
+        counter = 0;
+        if(inputArray.length < bibleArray.length){
+            for( i = 0; i<inputArray.length; i++){
+            for( b = 0; b<bibleArray.length; b++){
+                if (inputArray[i][0] == bibleArray[b][0]){
+                    counter++
+                    // console.log(counter);
+                };
+            }
+            }
+        }else{
+            console.log("user input is longer");
+            for( i = 0; i<bibleArray.length; i++){
+                for( b = 0; b<inputArray.length; b++){
+                    if (inputArray[b][0] == bibleArray[i][0]){
+                        counter--
+
+                    };
+                }
+                }
+
+        }
+        console.log(bibleArray);
+        return counter;
+    }
+
+
+Then compare which character has the most matching part of speech, that wil be the one disply on the website
+
+    function compare(abrahamCount, mosesCount){
+
+        if (abrahamCount > mosesCount){
+            abrahamCharacter();
+            console.log("abraham won!!");
+        } else{
+            mosesCharacter();
+            console.log("moses won!");
+        }
+        console.log("moses count:" + mosesCount);
+        console.log("abraham count:" + abrahamCount);
+
+    }
+    
+
+
+
 ![alt text](assets/progress/console_more.png)
+2. Bible API
+
+I created a json file to store two characters information for this prototyping pruposes. In the future, I will use an online Bible API to get the full texts in the actual Bible.
+
+
+3. Generative Drawings
+
+I didn't entirely finish this part, but so far there is a drawing created using p5 library. The drawing speed and color is based on user's matching percentage with the bible character.
+
 
 
 ## **🛑Challenges & Struggles**
