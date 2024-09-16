@@ -137,6 +137,7 @@ Due to the time limitation, I wasn't able to fully configure the code for both G
 
 ## **☁️ Future Development Envision**
 ![alt text](assets/future.jpg)
+![alt text](assets/gods_view_mockupB.jpg)
 
 ## **References**
 <!-- Credit resources appropriately -->
