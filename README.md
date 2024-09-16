@@ -112,12 +112,12 @@ Then compare which character has the most matching part of speech, that wil be t
 
 
 ![alt text](assets/progress/console_more.png)
-2. Bible API
+**2. Bible API**
 
 I created a json file to store two characters information for this prototyping pruposes. In the future, I will use an online Bible API to get the full texts in the actual Bible.
 
 
-3. Generative Drawings
+**3. Generative Drawings**
 
 I didn't entirely finish this part, but so far there is a drawing created using p5 library. The drawing speed and color is based on user's matching percentage with the bible character.
 
