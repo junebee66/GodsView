@@ -7,10 +7,10 @@ This website serves as mental guidance for people who feel lost or frustrated at
 **Click here for...**
 
 >[💻 Website](https://junebee66.github.io/GodsView/index.html) </br>
->[⏯ Video Demo](https://youtu.be/WDc8XRFh3TM?si=4iOmcl3K4WsFgH1u)
+>[⏯ Video Demo](https://youtu.be/WDc8XRFh3TM)
 
 ## **💡About**
-![alt text](assets/overview.jpg)
+![alt text](assets/gods_view_mockupB_long.jpg)
 #### **⭐️ Website Functionality**
 >This website matches user’s description of their problems to a Bible character’s experience and show the Bible character’s journey with God.
 
