@@ -7,7 +7,7 @@ This website serves as mental guidance for people who feel lost or frustrated at
 **Click here for...**
 
 >[💻 Website](https://junebee66.github.io/GodsView/index.html) </br>
->[⏯ Video Demo](https://youtu.be/WDc8XRFh3TM)
+>[⏯ Video Demo](https://youtu.be/WDc8XRFh3TM)</br>
 >[🌸 About Design](https://medium.com/p/8a66135e7fc3)
 
 ## **💡About**
